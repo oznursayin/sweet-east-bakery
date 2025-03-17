@@ -1,0 +1,162 @@
+*{
+    color:#3C373B;
+    letter-spacing:-0.4px;
+ }
+ 
+ h1 {
+   font-family: "Gaegu", cursive;
+   margin: 20px 0;
+   font-size:60px;
+   /*======= Yazı tipi boyutunu 60 piksele güncelleyin ve metni ortalayın */
+ }
+ 
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Gaegu", cursive;
+   margin-bottom: 0;
+   padding: 0 10px;
+   font-size:30px;
+   /*======= Yazı tipi boyutunu 30 piksele güncelleyin */
+ }
+ 
+ /*======= Sitedeki TÜM p etiketleri için aşağıdaki stillere sahip bir seçici oluşturun:
+ 
+ font-size: 16px;
+ font-family: roboto;
+ padding: 10px;
+ line-height: 1.4;
+ 
+ */
+  p{
+    font-size:16px;
+    font-family:roboto;
+    padding:10px;
+    line-height:1.4;
+ }
+ 
+ /*======= Sitedeki TÜM görseller için aşağıdaki stillere sahip bir seçici oluşturun:
+ 
+   border-radius: 10px;
+ 
+ */
+  img{
+    border-radius:10px;
+    height:400px;
+ }
+ 
+ .content-row {
+   display: flex;
+ }
+ 
+ .content-row div {
+   /*======= bir kenar boşluğu/margin özelliği oluşturun. Değeri 20px olarak ayarlayın */
+   margin:20px;
+ }
+ 
+ .container {
+   /*======= bir genişlik/width özelliği oluşturun. Değeri 600px  olarak ayarlayın */
+   margin: 0 auto;
+   width:600px;
+ }
+ 
+ .container header nav a {
+   margin: 0 10px;
+   border: 1px solid lightgray;
+   padding: 20px;
+   display: inline-block;
+   border-radius: 20px;
+   color: white;
+   text-decoration: none;
+   margin-bottom: 20px;
+   background-color:#F87B99;
+   /*======= bir arka plan özelliği oluşturun. Değeri #F87B99  olarak ayarlayın */
+ }
+ 
+ .container header nav a:hover {
+   /*======= bir arka plan özelliği oluşturun ve onu beyaza ayarlayın. Ardından bir renk özelliği oluşturun ve değerini pembe olarak ayarlayın. */
+   background:#FFF;
+   color:pink;
+   transition-duration: 400ms;
+ }
+ 
+ /*======= about-section için aşağıdaki stillere sahip bir seçici oluşturun:
+   margin-top: 20px;
+ */
+ .about{
+   margin-top:20px;
+ }
+ 
+ .contact-section {
+   border-top: 1px dashed black;
+   padding: 20px 0;
+ }
+ 
+ .contact-section h2 {
+   padding: 0;
+   margin: 0 0 10px 0;
+ }
+ 
+ /*======= contact-section classındaki address etiketi için aşağıdaki stillere sahip bir seçici oluşturun:
+    line-height: 2;
+ */
+ .contact-section address {
+   line-height:2; 
+ }
+ 
+ footer {
+   width: 100%;
+   background: #f87b99;
+   border-top: 1px dashed white;
+ }
+ 
+ footer .footer-content {
+   margin: 0 auto;
+   /*======= bir genişlik özelliği oluşturun. Değeri 600px  olarak ayarlayın */
+   width:600px;
+ }
+ 
+ footer .footer-content h3 {
+   padding: 0;
+   margin: 20px 0;
+ }
+ 
+ footer nav {
+   display: flex;
+ }
+ 
+ /*======= footerdaki bağlantı/anchor etiketleri için aşağıdaki stillere sahip bir seçici oluşturun:
+   margin: 10px;
+   color: black;
+   text-decoration: underline;
+ */
+ footer a {
+   margin:10px;
+   color:black;
+   text-decoration:underline;
+ }
+ 
+ footer nav a:first-child {
+   margin-left: 0;
+ }
+ 
+ /*======= footer nav'deki bağlantı etiketlerinin üzerine gelindiğinde aşağıdaki stillere sahip olmak için hover oluşturun:
+   color: white;
+ */
+ footer a:hover {
+   color:white;
+ }
+ 
+ footer .footer-content .copyright {
+   padding: 20px 0;
+   /*======= metni ortalayın */
+  text-align:center;
+ }
+ .about-details{
+  border: 1px solid pink;
+  padding: 3px;
+  margin:0;
+  height: auto;
+ }
